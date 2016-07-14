@@ -1,19 +1,19 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+
+#front_upper_frame{
+    width: 100%;
+    background-color: black;
+}
+
 #sampleMovie{
     position:absolute;
-
     width: 100%;
-
 
 }
 
 #video_box{
     float:left;
-}
-#video_overlays {
-    position:absolute;
-    float:left;
-    width:640px;
-    min-height:370px;
-    background-color:#000;
-    z-index:300000;
 }
