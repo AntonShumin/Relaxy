@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ff4cd443-b268-42fd-b9d7-878469dcca9f" name="apache_wamp" url="http://localhost/Relaxy">
+        <fileTransfer port="0" mountedRoot="Q:\Projects\wamp64\bin\apache\apache2.4.17\htdocs" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
