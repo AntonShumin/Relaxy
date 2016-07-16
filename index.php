@@ -18,13 +18,17 @@
             </video>
         </div>
 
-        <div class="content gradient">
+        <div class="upper_bar border_bottom shadow_bottom">
+
+        </div>
+
+        <div class="content">
 
             <h1>Video background tutorial</h1>
             <p>this is some text</p>
         </div>
 
-        <div class="front_frame_2">
+        <div class="front_frame_2 shadow_top_left border_top">
             <p>Test</p>
         </div>
 
