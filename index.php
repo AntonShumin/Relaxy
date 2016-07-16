@@ -1,39 +1,32 @@
 
 <html>
-<head>
-    <title>Relaxy</title>
-    <link rel="stylesheet" type="text/css" href="Media/css/layout.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-</head>
-<body>
-    <!--
-    <div id="upper_frame">
-        <img src="Media/Pictures/ColorOverlay.png"/>
+    <head>
+        <title>Relaxy</title>
 
-    </div>
-    -->
-    <div class="background-wrap">
-        <video id="sampleMovie" autoplay loop>
-            <!--
-            <source src="HTML5Sample_H264.pmov" />
-            <source src="HTML5Sample_Ogg.ogv" />
-            -->
-            <source src="Media/Video/Wellness_Small.webm" />
-        </video>
-    </div>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="Media/css/layout.css">
+    </head>
+    <body>
 
-    <div class="content">
+        <div class="video_wrap">
+            <video id="video" autoplay loop>
+                <!--
+                <source src="HTML5Sample_H264.pmov" />
+                <source src="HTML5Sample_Ogg.ogv" />
+                -->
+                <source src="Media/Video/Wellness_Small.webm" />
+            </video>
+        </div>
 
-        <h1>Video background tutorial</h1>
-        <p>this is some text</p>
-        </img>
+        <div class="content gradient">
 
+            <h1>Video background tutorial</h1>
+            <p>this is some text</p>
+        </div>
 
-    </div>
+        <div class="front_frame_2">
+            <p>Test</p>
+        </div>
 
-
-
-
-</body>
-
+    </body>
 </html>
