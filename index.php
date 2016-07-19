@@ -22,19 +22,24 @@
         <!-- --------------------------------------------
         -----------------Upper Bar----------------------
         --------------------------------------------- -->
-        <div class="upper_bar border_bottom shadow_bottom">
-            <img src="Media/Pictures/logo_bloem.png"/>
+        <div class="upper_bar border_bottom shadow_bottom container">
+            <img src="Media/Pictures/Relaxy_logo.png"/>
         </div>
 
-        <div class="front_frame_1">
-            <img src="Media/Pictures/logo_bloem.png"/>
-            <h1> &nbsp SAUNA &nbsp WELLNESS &nbsp RELAXY &nbsp</h1>
-            <p>Zoek, boek en vergelijk meer dan 180 saunas in Vlaanderen.<br/>Uw perfecte avond begint bij ons.</p>
-            <p></p>
+        <div class="front_frame_1 container">
+            <div class="row">
+                    <div class="center-block text-center">
+                        <img src="Media/Pictures/logo_bloem.png"/>
+                        <h1> &nbsp SAUNA &nbsp WELLNESS &nbsp RELAXY &nbsp</h1>
+                        <p>Zoek, boek en vergelijk meer dan 180 saunas in Vlaanderen.<br/>Uw perfecte avond begint bij ons.</p>
+                    </div>
+
+            </div>
+
         </div>
 
         <div class="front_frame_2 shadow_top_left border_top">
-            <h1>AANRADERS VAN DE WEEK</h1>
+            <h1>WELLNESS VAN DE WEEK</h1>
 
         </div>
 
