@@ -23,7 +23,19 @@
         -----------------Upper Bar----------------------
         --------------------------------------------- -->
         <div class="upper_bar border_bottom shadow_bottom container">
-            <img src="Media/Pictures/Relaxy_logo.png"/>
+            <div class="row">
+                <img src="Media/Pictures/Relaxy_logo.png"/>
+                <div class="input-group">
+                    <input type="text" class="form-control SearchBar" placeholder="Zoek op naam, adres, vertrekpunt...">
+                    <span class="input-group-btn">
+                    <button class="btn btn-defaul SearchButton" type="button">
+                        <span class=" glyphicon glyphicon-search SearchIcon" ></span>
+                    </button>
+                  </span>
+                </div>
+            </div>
+
+
         </div>
 
         <div class="front_frame_1 container">
@@ -45,17 +57,23 @@
 
         <div class="front_frame_3">
             <h1>RELAXY</h1>
-            <img src="Media/Pictures/Flair_1.png" />
-            <ul>
-                <li>Meer dan 180 partners</li>
-                <li>Snel en overzichtelijk vergelijken</li>
-                <li>Actie en promotie tracker</li>
-                <li>Routebeschrijving</li>
-                <li>Openingsuren</li>
-                <li>Gebruikers reviews</li>
-                <li>Weerbericht</li>
+            <div class="container">
+                <div class="row">
+                    <img src="Media/Pictures/Flair_1.png" />
+                    <ul>
+                        <li>Snel en overzichtelijk vergelijken</li>
+                        <li>Meer dan 180 partners</li>
+                        <li>Actie en promotie tracker</li>
+                        <li>Routebeschrijving</li>
+                        <li>Openingsuren</li>
+                        <li>Gebruikers reviews</li>
+                        <li>Weerbericht</li>
+                    </ul>
+                </div>
+            </div>
 
-            </ul>
+
+
         </div>
 
         <div class="front_frame_2">
