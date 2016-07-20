@@ -34,7 +34,12 @@
                   </span>
                 </div>
             </div>
-
+            <ul>
+                <li>Over Ons</li>
+                <li>Blog</li>
+                <li>Promoties</li>
+                <li>Log In</li>
+            </ul>
 
         </div>
 
