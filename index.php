@@ -20,7 +20,7 @@
             </video>
         </div>
         <!-- --------------------------------------------
-        -----------------Upper Bar----------------------
+        -----------------Nav Bar----------------------
         --------------------------------------------- -->
         <!--
         <div class="upper_bar border_bottom shadow_bottom container">
@@ -38,7 +38,9 @@
         -->
         <div class="navbar navbar-default navbar-fixed-top shadow_bottom">
             <div class="container">
-                <a href="#" class="navbar-left"><img src="Media/Pictures/Relaxy_logo.png"/></a>
+                <!-- ICON -->
+                <a href="#" class="navbar-left"><img src="Media/Pictures/Relaxy_logo.png"/>
+                <!-- Search -->
                 <div class="input-group">
                     <input type="text" class="form-control SearchBar" placeholder="Zoek op naam, adres, vertrekpunt...">
                     <span class="input-group-btn">
@@ -47,6 +49,7 @@
                     </button>
                   </span>
                 </div>
+                <!-- Menu Items -->
             </div>
 
         </div>
