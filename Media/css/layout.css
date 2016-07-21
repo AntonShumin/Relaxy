@@ -48,6 +48,7 @@ h1, ul, li {
     z-index: -1000;
     width:100%;
     height:80%;
+    min-height: 600px;
     overflow: hidden;
     background-color: black;
 
@@ -114,6 +115,7 @@ h1, ul, li {
 
 .front_frame_1{
     height: 80%;
+    min-height: 600px;
     width: 100%;
     top: 100px;
     margin: 0px;
@@ -121,6 +123,13 @@ h1, ul, li {
     text-shadow: -1px -1px 20px rgba(150, 150, 150, 1);
     background-color: rgba(30, 30, 30, 0.1);
     /*background-color: #79316e; */
+}
+
+.front_frame_1 .row{
+    margin-top: 220px;
+}
+.front_frame_1 img{
+    padding-bottom: 20px;
 }
 
 /********************************
