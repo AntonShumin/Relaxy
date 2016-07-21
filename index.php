@@ -39,7 +39,7 @@
         <div class="navbar navbar-default navbar-fixed-top shadow_bottom">
             <div class="container">
                 <!-- ICON -->
-                <a href="#" class="navbar-left"><img src="Media/Pictures/Relaxy_logo.png"/></a>
+                <a href="index.php" class="navbar-left"><img src="Media/Pictures/Relaxy_logo.png"/></a>
                 <!-- Search -->
                 <div class="input-group">
                     <input type="text" class="form-control SearchBar" placeholder="Zoek op naam, adres, vertrekpunt...">
@@ -50,6 +50,7 @@
                   </span>
                 </div>
                 <!-- Menu Items -->
+
             </div>
 
         </div>
@@ -61,7 +62,9 @@
                         <img src="Media/Pictures/logo_bloem.png"/>
                         <h1> &nbsp SAUNA &nbsp WELLNESS &nbsp RELAXY &nbsp</h1>
                         <p>Zoek, boek en vergelijk meer dan 180 saunas in Vlaanderen.</p>
-
+                        <button type="button" class="btn btn-warning">Privé Sauna's</button>
+                        <button type="button" class="btn btn-success">Publieke Sauna's</button>
+                        <!-- <button type="button" class="btn btn-danger">Overnachtingen</button> -->
                     </div>
             </div>
 
