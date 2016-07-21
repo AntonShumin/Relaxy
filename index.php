@@ -22,9 +22,23 @@
         <!-- --------------------------------------------
         -----------------Upper Bar----------------------
         --------------------------------------------- -->
+        <!--
         <div class="upper_bar border_bottom shadow_bottom container">
             <div class="row">
                 <img src="Media/Pictures/Relaxy_logo.png"/>
+
+            </div>
+            <ul>
+                <li>Over Ons</li>
+                <li>Blog</li>
+                <li>Promoties</li>
+                <li>Log In</li>
+            </ul>
+        </div>
+        -->
+        <div class="navbar navbar-default navbar-fixed-top shadow_bottom">
+            <div class="container">
+                <a href="#" class="navbar-left"><img src="Media/Pictures/Relaxy_logo.png"/></a>
                 <div class="input-group">
                     <input type="text" class="form-control SearchBar" placeholder="Zoek op naam, adres, vertrekpunt...">
                     <span class="input-group-btn">
@@ -34,14 +48,9 @@
                   </span>
                 </div>
             </div>
-            <ul>
-                <li>Over Ons</li>
-                <li>Blog</li>
-                <li>Promoties</li>
-                <li>Log In</li>
-            </ul>
 
         </div>
+
 
         <div class="front_frame_1 container">
             <div class="row">
@@ -56,7 +65,7 @@
         </div>
 
         <div class="front_frame_2 shadow_top_left border_top">
-            <h1>WELLNESS VAN DE WEEK</h1>
+            <h1>AANRADERS VAN DE WEEK</h1>
 
         </div>
 

@@ -59,6 +59,7 @@ h1, ul, li {
 .border_bottom{
     border-bottom: 1px solid #6f6b68;
 }
+
 /* FRONT PAGE */
 .upper_bar{
     position: fixed;
@@ -115,6 +116,12 @@ h1, ul, li {
 }
 
 /* SEARCH BAR */
+.input-group{
+    padding-left: 20px;
+    margin-top: 6px;
+    max-width: 340px;
+    min-width: 200px;
+}
 .SearchIcon
 {
     color:#fff;
@@ -122,8 +129,9 @@ h1, ul, li {
 }
 .SearchButton
 {
-    background-color:#2dec85;
+    background-color: #9e9e9e;
     border-radius:1px;
+    height: 34px;
 }
 .SearchButton:hover{
     background-color: #4cc40e;
