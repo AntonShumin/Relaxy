@@ -156,6 +156,12 @@ h1, ul, li {
 .front_frame_2 h1, .front_frame_3 h1{
     font-size: 1.5em;
 }
+.aanraders{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    margin: 20px;
+}
 
 /********************************
 *************FRAME 3*************

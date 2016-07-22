@@ -81,6 +81,11 @@
 
         <div class="front_frame_2 shadow_top_left border_top">
             <h1>AANRADERS VAN DE WEEK</h1>
+            <div class="container">
+                <div class="aanraders">Prive Sauna</div>
+                <div class="aanraders">Publieke Sauna</div>
+                <div class="aanraders">Overnachtingen</div>
+            </div>
 
         </div>
 
