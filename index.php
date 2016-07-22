@@ -41,7 +41,7 @@
                 <!-- ICON -->
                 <a href="index.php" class="navbar-left"><img src="Media/Pictures/Relaxy_logo.png"/></a>
                 <!-- Search -->
-                <div class="input-group">
+                <div class="input-group navbar-left">
                     <input type="text" class="form-control SearchBar" placeholder="Zoek op naam, adres, vertrekpunt...">
                     <span class="input-group-btn">
                     <button class="btn btn-defaul SearchButton" type="button">
@@ -50,6 +50,15 @@
                   </span>
                 </div>
                 <!-- Menu Items -->
+                <div class="collapse navbar-collapse navHeaderCollapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Over Ons</a> </li>
+                        <li><a href="#">Blog</a> </li>
+                        <li><a href="#">Promoties</a> </li>
+                        <li><a href="#">Log-In</a> </li>
+                    </ul>
+                </div>
 
             </div>
 
