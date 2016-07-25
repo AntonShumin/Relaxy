@@ -9,4 +9,30 @@ try {
     die("Database PDO error");
 }
 
-echo "The rest of our page";
+$query = $handler->query('SELECT * FROM guestbook');
+/**
+//fetch result from query
+while($r = $query->fetch()) {
+    echo $r['message'], '<br>';
+}
+
+
+$r = $query->fetch(PDO::FETCH_OBJ);
+echo '<pre>', print_r($r), '</pre>';
+
+
+while($r = $query->fetch(PDO::FETCH_OBJ)) {
+    echo $r->message, '<br>';
+}
+ **/
+
+$query -> setFetchMode(PDO::FETCH_CLASS,'GuestbookEntry');
+while($r = $query->fetch()) {
+    echo '<pre>', print_r($r), '</pre>';
+}
+
+class GuestbookEntry {
+     public $name, $message, $posted,
+            $entry; //id automatisch gecreerd
+
+}
