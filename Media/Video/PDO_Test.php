@@ -8,9 +8,9 @@ try {
     echo $e->getMessage();
     die("Database PDO error");
 }
-
-$query = $handler->query('SELECT * FROM guestbook');
 /**
+$query = $handler->query('SELECT * FROM guestbook');
+
 //fetch result from query
 while($r = $query->fetch()) {
     echo $r['message'], '<br>';
@@ -24,7 +24,7 @@ echo '<pre>', print_r($r), '</pre>';
 while($r = $query->fetch(PDO::FETCH_OBJ)) {
     echo $r->message, '<br>';
 }
- **/
+
 
 $query -> setFetchMode(PDO::FETCH_CLASS,'GuestbookEntry');
 while($r = $query->fetch()) {
@@ -36,3 +36,26 @@ class GuestbookEntry {
             $entry; //id automatisch gecreerd
 
 }
+
+//fetch all
+$results = $query->fetchAll(PDO::FETCH_ASSOC);
+
+if(count($results)) {
+    echo "There are results";
+} else {
+    echo "there are no results";
+}
+ *  **/
+
+//prepared statements
+$name = 'Joshua';
+$message = 'Test';
+
+$sql = "INSERT INTO guestbook (name,message,posted) VALUES ('Joshua','Test', NOW())";
+//$handler->query($sql);
+$query = $handler->prepare($sql);
+
+$query->execute(array(
+    ":name" => $name,
+    ":message" => $message
+));
