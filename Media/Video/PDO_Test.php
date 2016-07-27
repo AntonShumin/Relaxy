@@ -45,13 +45,12 @@ if(count($results)) {
 } else {
     echo "there are no results";
 }
- *  **/
 
 //prepared statements
 $name = 'Joshua';
 $message = 'Test';
 
-$sql = "INSERT INTO guestbook (name,message,posted) VALUES ('Joshua','Test', NOW())";
+$sql = "INSERT INTO guestbook (name,message,posted) VALUES (:name,:message, NOW())";
 //$handler->query($sql);
 $query = $handler->prepare($sql);
 
@@ -59,3 +58,14 @@ $query->execute(array(
     ":name" => $name,
     ":message" => $message
 ));
+
+echo $handler->lastInsertId();
+ * **/
+
+if($query->rowCount()) {
+    while($r = $query->fetch(PDO::FETCH_OBJ)) {
+        echo $r->message,  "<br>";
+    }
+} else {
+    echo "no results";
+}

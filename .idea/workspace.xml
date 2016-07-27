@@ -29,7 +29,7 @@
           <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
+                <state relative-caret-position="303">
                   <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
                   <folding />
                 </state>
@@ -73,12 +73,12 @@
           <file leaf-file-name="PDO_Test.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Media/Video/PDO_Test.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="600">
-                  <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+                <state relative-caret-position="1050">
+                  <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
                   <folding>
-                    <marker date="1469565137696" expanded="true" signature="319:342" ph="SELECT * FRO... guestbook" />
-                    <marker date="1469565137696" expanded="true" signature="1069:1130" ph="INSERT INTO guestbook... " />
-                    <marker date="1469565137696" expanded="true" signature="1069:1144" ph="INSERT INTO guestbook... " />
+                    <marker date="1469653380484" expanded="true" signature="319:342" ph="SELECT * FRO... guestbook" />
+                    <marker date="1469653380484" expanded="true" signature="1061:1119" ph="INSERT INTO guestbook... " />
+                    <marker date="1469653380484" expanded="true" signature="1061:1135" ph="INSERT INTO guestbook... " />
                   </folding>
                 </state>
               </provider>
@@ -113,7 +113,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="2283" />
+    <option name="width" value="1734" />
     <option name="height" value="1407" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -142,7 +142,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -231,6 +230,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,12 +335,13 @@
       <workItem from="1469261650058" duration="1801000" />
       <workItem from="1469352850283" duration="5605000" />
       <workItem from="1469477095797" duration="2785000" />
-      <workItem from="1469528879273" duration="1359000" />
+      <workItem from="1469528879273" duration="1958000" />
+      <workItem from="1469652486169" duration="898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78196000" />
+    <option name="totallyTimeSpent" value="79693000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -352,10 +353,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="2283" height="1407" extended-state="0" />
+    <frame x="-7" y="0" width="1734" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14844805" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19952211" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22291994" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -408,14 +409,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Media/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2040">
@@ -445,9 +438,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1469565137696" expanded="true" signature="319:342" ph="SELECT * FRO... guestbook" />
-            <marker date="1469565137696" expanded="true" signature="1069:1130" ph="INSERT INTO guestbook... " />
-            <marker date="1469565137696" expanded="true" signature="1069:1144" ph="INSERT INTO guestbook... " />
+            <marker date="1469653380484" expanded="true" signature="319:342" ph="SELECT * FRO... guestbook" />
+            <marker date="1469653380484" expanded="true" signature="1061:1119" ph="INSERT INTO guestbook... " />
+            <marker date="1469653380484" expanded="true" signature="1061:1135" ph="INSERT INTO guestbook... " />
           </folding>
         </state>
       </provider>
@@ -489,9 +482,53 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1469565137696" expanded="true" signature="319:342" ph="SELECT * FRO... guestbook" />
-            <marker date="1469565137696" expanded="true" signature="1069:1130" ph="INSERT INTO guestbook... " />
-            <marker date="1469565137696" expanded="true" signature="1069:1144" ph="INSERT INTO guestbook... " />
+            <marker date="1469653380484" expanded="true" signature="319:342" ph="SELECT * FRO... guestbook" />
+            <marker date="1469653380484" expanded="true" signature="1061:1119" ph="INSERT INTO guestbook... " />
+            <marker date="1469653380484" expanded="true" signature="1061:1135" ph="INSERT INTO guestbook... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Media/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="136" column="1" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Media/Sample_Strict.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Media/Video/PDO_Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1469653380484" expanded="true" signature="319:342" ph="SELECT * FRO... guestbook" />
+            <marker date="1469653380484" expanded="true" signature="1061:1119" ph="INSERT INTO guestbook... " />
+            <marker date="1469653380484" expanded="true" signature="1061:1135" ph="INSERT INTO guestbook... " />
           </folding>
         </state>
       </provider>
@@ -762,7 +799,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="303">
           <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
           <folding />
         </state>
@@ -786,12 +823,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Media/Video/PDO_Test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+        <state relative-caret-position="1050">
+          <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
           <folding>
-            <marker date="1469565137696" expanded="true" signature="319:342" ph="SELECT * FRO... guestbook" />
-            <marker date="1469565137696" expanded="true" signature="1069:1130" ph="INSERT INTO guestbook... " />
-            <marker date="1469565137696" expanded="true" signature="1069:1144" ph="INSERT INTO guestbook... " />
+            <marker date="1469653380484" expanded="true" signature="319:342" ph="SELECT * FRO... guestbook" />
+            <marker date="1469653380484" expanded="true" signature="1061:1119" ph="INSERT INTO guestbook... " />
+            <marker date="1469653380484" expanded="true" signature="1061:1135" ph="INSERT INTO guestbook... " />
           </folding>
         </state>
       </provider>
