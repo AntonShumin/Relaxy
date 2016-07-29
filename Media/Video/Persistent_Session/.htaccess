@@ -19,7 +19,7 @@ php_value session.name LyndaSession
 php_value session.cache_limiter nocache
 
 # Cookie settings
-php_value session.cookie_domain ''
+#php_value session.cookie_domain ''
 php_value session.cookie_path '/persistent'
 php_value session.cookie_lifetime 0
 php_flag session.cookie_httponly on
