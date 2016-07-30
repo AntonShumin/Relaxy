@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_2/create_db.sql" dialect="MySQL" />
+  </component>
+</project>

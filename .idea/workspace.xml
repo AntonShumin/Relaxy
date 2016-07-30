@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad3c353-596e-4e02-84f0-8d1dacc7b877" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Media/Video/Persistent_Session/session_03.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_2/create_db.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Media/Video/Persistent_Session/.htaccess" afterPath="$PROJECT_DIR$/Media/Video/Persistent_Session/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Media/Video/Persistent_Session/session_01.php" afterPath="$PROJECT_DIR$/Media/Video/Persistent_Session/session_01.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Media/Video/Persistent_Session/session_02.php" afterPath="$PROJECT_DIR$/Media/Video/Persistent_Session/session_02.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Media/Video/Persistent_Session/session_01.php" afterPath="$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_1/session_01.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Media/Video/Persistent_Session/session_02.php" afterPath="$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_1/session_02.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Media/Video/Persistent_Session/session_03.php" afterPath="$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_1/session_03.php" />
     </list>
     <ignored path="Relaxy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,6 +21,14 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -40,7 +49,7 @@
             </entry>
           </file>
           <file leaf-file-name="session_01.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session/session_01.php">
+            <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_1/session_01.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="105">
                   <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
@@ -94,17 +103,20 @@
             </entry>
           </file>
           <file leaf-file-name="session_02.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session/session_02.php">
+            <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_1/session_02.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="15">
                   <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="38" />
-                  <folding />
+                  <folding>
+                    <marker date="1469877520121" expanded="true" signature="134:209" ph="..." />
+                    <marker date="1469877520121" expanded="true" signature="471:530" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="session_03.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session/session_03.php">
+            <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_1/session_03.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="30">
                   <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
@@ -113,11 +125,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
+          <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session/.htaccess">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="390">
                   <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="create_db.sql" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_2/create_db.sql">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
                   <folding />
                 </state>
               </provider>
@@ -143,6 +165,7 @@
         <option value="$PROJECT_DIR$/Media/Video/Persistent_Session/session_03.php" />
         <option value="$PROJECT_DIR$/Media/Video/Persistent_Session/session_02.php" />
         <option value="$PROJECT_DIR$/Media/Video/Persistent_Session/.htaccess" />
+        <option value="$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_2/create_db.sql" />
       </list>
     </option>
   </component>
@@ -272,6 +295,32 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Video" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Persistent_Session" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="session_test_2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Relaxy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Relaxy" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Media" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Pictures" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -309,6 +358,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Q:\Projects\wamp64\www\Relaxy\Media\Video\Persistent_Session" />
+      <recent name="Q:\Projects\wamp64\www\Relaxy\Media\Video\Persistent_Session\session_test_1" />
       <recent name="Q:\Projects\wamp64\www\Relaxy\Media\Pictures" />
       <recent name="Q:\Projects\wamp64\www\Relaxy" />
     </key>
@@ -407,12 +457,12 @@
       <workItem from="1469652486169" duration="2009000" />
       <workItem from="1469689646869" duration="2723000" />
       <workItem from="1469777385816" duration="1698000" />
-      <workItem from="1469870391571" duration="4360000" />
+      <workItem from="1469870391571" duration="5586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89585000" />
+    <option name="totallyTimeSpent" value="90811000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -480,14 +530,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Media/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="136" column="1" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Media/Sample_Strict.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -837,7 +879,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session/session_01.php">
+    <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_1/session_01.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
@@ -861,15 +903,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session/session_02.php">
+    <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_1/session_02.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="38" />
-          <folding />
+          <folding>
+            <marker date="1469877520121" expanded="true" signature="134:209" ph="..." />
+            <marker date="1469877520121" expanded="true" signature="471:530" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session/session_03.php">
+    <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_1/session_03.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
@@ -881,6 +926,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_2/create_db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
           <folding />
         </state>
       </provider>
