@@ -1,5 +1,5 @@
 <?php
-
+echo ini_get('session.cookie_domain');
 session_start();
 if(isset($_POST['first_name'])) {
     if(!empty($_POST['first_name'])) {

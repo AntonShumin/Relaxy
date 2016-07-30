@@ -5,7 +5,7 @@
         <title>Session Test</title>
     </head>
     <body>
-        <form method="post" action="session_01.php">
+        <form method="post" action="session_02.php">
             <p>
                 <label for="first_name">Enter your first name:</label>
                 <input type="text" name="first_name" id="first_name">
