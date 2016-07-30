@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad3c353-596e-4e02-84f0-8d1dacc7b877" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_2/persistent.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_2/db_connect.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_2/persistent.sql" afterPath="$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_2/persistent.sql" />
     </list>
     <ignored path="Relaxy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -137,18 +137,28 @@
           <file leaf-file-name="create_db.sql" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_2/create_db.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="65" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="persistent.sql" pinned="false" current-in-tab="true">
+          <file leaf-file-name="persistent.sql" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_2/persistent.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+                <state relative-caret-position="75">
+                  <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="db_connect.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_2/db_connect.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="79" selection-start-line="2" selection-start-column="79" selection-end-line="2" selection-end-column="79" />
                   <folding />
                 </state>
               </provider>
@@ -176,6 +186,7 @@
         <option value="$PROJECT_DIR$/Media/Video/Persistent_Session/.htaccess" />
         <option value="$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_2/create_db.sql" />
         <option value="$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_2/persistent.sql" />
+        <option value="$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_2/db_connect.php" />
       </list>
     </option>
   </component>
@@ -467,12 +478,12 @@
       <workItem from="1469652486169" duration="2009000" />
       <workItem from="1469689646869" duration="2723000" />
       <workItem from="1469777385816" duration="1698000" />
-      <workItem from="1469870391571" duration="7358000" />
+      <workItem from="1469870391571" duration="8351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92583000" />
+    <option name="totallyTimeSpent" value="93576000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -540,13 +551,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Media/Video/PDO_Test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
@@ -926,14 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_2/create_db.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -942,10 +938,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_2/create_db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_2/persistent.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Media/Video/Persistent_Session/session_test_2/db_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="79" selection-start-line="2" selection-start-column="79" selection-end-line="2" selection-end-column="79" />
           <folding />
         </state>
       </provider>
